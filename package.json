@@ -51,7 +51,7 @@
     "istanbul": "^0.4.5",
     "karma": "^1.2.0",
     "karma-mocha": "^1.1.1",
-    "karma-requirejs": "^1.0.0",
+    "karma-requirejs": "https://github.com/natlibfi-arlehiko/karma-requirejs#fix-npm3-dist",
     "karma-phantomjs-launcher": "^1.0.2",
     "karma-requirejs-preprocessor": "^0.0.2",
     "requirejs-configurator": "https://github.com/natlibfi-arlehiko/requirejs-configurator#dev-deps",
