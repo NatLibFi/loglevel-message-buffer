@@ -35,10 +35,6 @@
     "generate-requirejs-config": "requirejs-configurator --npm --include-dev-deps > test/browser-main.js",
     "publish-to-npm": "npm install && npm run check && npm publish"
   },
-  "dependencies": {
-    "es6-object-assign": "^1.0.3",
-    "es6-promise-polyfill": "^1.2.0"
-  },
   "peerDependencies": {
     "loglevel": "^1.4.1"
   },
