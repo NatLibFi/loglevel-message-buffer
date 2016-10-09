@@ -178,6 +178,32 @@ function factory(chai, simple, loglevel, initPlugin)
 
     });
 
+    it('Should pass context to the next plugin', function() {
+
+      var logger;
+
+      function mockPlugin(logger)
+      {
+
+        var fn_orig = logger.methodFactory;
+
+        logger.methodFactory = function()
+        {
+          return function()
+          {
+            expect(this).to.not.be.undefined /* jshint -W030 */;
+          };
+        };
+
+        return logger;
+
+      }
+      
+      logger = initPlugin(mockPlugin(loglevel.getLogger('foobar')));
+      logger.error('foobar');      
+
+    });
+
   });
 
 }

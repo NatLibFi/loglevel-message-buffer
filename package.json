@@ -22,7 +22,7 @@
     "url": "git@github.com:NatLibFi/loglevel-message-buffer.git"
   },
   "license": " MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./lib/main",
   "scripts": {
     "lint": "jshint .",      
