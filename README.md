@@ -13,7 +13,7 @@ define(['loglevel', 'loglevel-message-buffer'], function(log, loglevelMessageBuf
   loglevelMessageBuffer(log);
 
   log.warn('TEST');
-  // Flushes the buffer and sends all messages forward
+  // Flushes the buffer and sends all messages forward (NOTE: #flush becomes only available after a message is sent)
   log.flush();
 
 });
@@ -30,7 +30,7 @@ var loglevelMessageBuffer = require('loglevel-message-buffer');
 loglevelMessageBuffer(log);
 
 log.warn('TEST');
-  // Flushes the buffer and sends all messages forward
+  // Flushes the buffer and sends all messages forward (NOTE: #flush becomes only available after a message is sent)
 log.flush();
 
 ```
