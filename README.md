@@ -1,4 +1,4 @@
-# loglevel Message buffer plugin [![NPM Version](https://img.shields.io/npm/v/loglevel-message-buffer.svg)](https://npmjs.org/package/loglevel-message-buffer) [![Build Status](https://travis-ci.org/NatLibFi/loglevel-message-buffer.svg)](https://travis-ci.org/NatLibFi/loglevel-message-buffer) [![Test Coverage](https://codeclimate.com/github/NatLibFi/loglevel-message-buffer/badges/coverage.svg)](https://codeclimate.com/github/NatLibFi/loglevel-message-buffer/coverage)
+# loglevel Message buffer plugin [![NPM Version](https://img.shields.io/npm/v/@natlibfi/loglevel-message-buffer.svg)](https://npmjs.org/package/loglevel-message-buffer) [![Build Status](https://travis-ci.org/NatLibFi/loglevel-message-buffer.svg)](https://travis-ci.org/NatLibFi/loglevel-message-buffer) [![Test Coverage](https://codeclimate.com/github/NatLibFi/loglevel-message-buffer/badges/coverage.svg)](https://codeclimate.com/github/NatLibFi/loglevel-message-buffer/coverage)
 
 Plugin for [loglevel](https://github.com/pimterry/loglevel) which allows buffering of log messages
 
@@ -53,6 +53,6 @@ npm run check
 
 ## License and copyright
 
-Copyright (c) 2016 **University Of Helsinki (The National Library Of Finland)**
+Copyright (c) 2016-2017 **University Of Helsinki (The National Library Of Finland)**
 
 This project's source code is licensed under the terms of **MIT License**.
